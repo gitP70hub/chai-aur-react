@@ -4,14 +4,20 @@
   "description": "test1",
   "main": "index.js",
   "scripts": {
-  
     "dev": "vite",
     "build": "vite build",
-    "preview":"vite preview"
+    "preview": "vite preview"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vite": "^6.0.3"
+    "vite": "^6.0.3",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^3.2.5",
+    "@emotion/react": "^11.14.0",
+    "next-themes": "^0.4.4",
+    "react-icons": "^5.4.0"
   }
 }
