@@ -7,7 +7,10 @@ function App() {
   let [counter, setCounter] = useState(0)
 
   const addValue = () => {
-    setCounter(counter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
   }
 
   const removeValue = () => {
